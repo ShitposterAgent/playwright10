@@ -1,0 +1,57 @@
+{
+  "accounts": [
+    {
+      "platform": "twitter",
+      "username": "your_twitter_username",
+      "password": "your_twitter_password",
+      "cookiesPath": "./data/twitter_cookies.json"
+    },
+    {
+      "platform": "facebook",
+      "username": "your_facebook_username",
+      "password": "your_facebook_password",
+      "cookiesPath": "./data/facebook_cookies.json"
+    },
+    {
+      "platform": "instagram",
+      "username": "your_instagram_username",
+      "password": "your_instagram_password",
+      "cookiesPath": "./data/instagram_cookies.json"
+    },
+    {
+      "platform": "threads",
+      "username": "your_threads_username",
+      "password": "your_threads_password",
+      "cookiesPath": "./data/threads_cookies.json"
+    },
+    {
+      "platform": "linkedin",
+      "username": "your_linkedin_username",
+      "password": "your_linkedin_password",
+      "cookiesPath": "./data/linkedin_cookies.json"
+    }
+  ],
+  "ai": {
+    "provider": "ollama",
+    "model": "llama3",
+    "endpoint": "http://localhost:11434"
+  },
+  "tasks": [
+    {
+      "platform": "twitter",
+      "action": "post",
+      "content": "Hello world! #shitposteragent",
+      "schedule": "2025-07-29T10:00:00Z"
+    },
+    {
+      "platform": "facebook",
+      "action": "like",
+      "target": "https://facebook.com/somepage/post/12345"
+    }
+  ],
+  "settings": {
+    "headless": true,
+    "proxy": "",
+    "userAgent": "shitposteragent/1.0"
+  }
+}
